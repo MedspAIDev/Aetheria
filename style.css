@@ -110,17 +110,18 @@ body, html {
 .bottom-header {
   position: sticky;
   top: 0;
-  z-index: 1000;
-  background-color: rgba(0, 209, 209, 0.65);
+  z-index: 999;
+  background-color: rgba(0, 209, 209, 0.65); /* soft transparent teal */
+  backdrop-filter: blur(5px);
   padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); /* subtle shadow for separation */
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
-  width: 100%;
-  max-width: 100%;
   box-sizing: border-box;
+  width: 100%;
 }
+
 
 .nav-links {
   display: flex;
