@@ -104,58 +104,42 @@ body, html {
 
 /* === BOTTOM HEADER === */
 .bottom-header {
-  background-color: rgba(0, 209, 209, 0.9); /* Semi-transparent teal */
+  background-color: rgba(0, 209, 209, 0.65); /* Softer transparent teal */
   position: sticky;
   top: 0;
   z-index: 9999;
   width: 100%;
   padding: 25px 0;
-}
-
-.bottom-header nav {
-  max-width: 1300px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 60px;
-  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
 }
-
-.nav-left {
-  list-style: none;
+.bottom-header nav {
   display: flex;
-  gap: 60px; /* More spread out */
-  margin: 0;
-  padding: 0;
+  gap: 50px; /* Spaced out nav links */
+  margin-left: 50px;
 }
-
-.nav-left li a {
+.bottom-header nav a {
   text-decoration: none;
-  color: white;
-  font-weight: 400; /* Not bold */
-  font-size: 1.2rem;
-  transition: color 0.3s;
+  color: #fff;
+  font-size: 18px;
 }
-
-.nav-left li a:hover {
-  color: #ffe3ca;
-}
-
-.book-btn {
-  background-color: #d09370;
+.bottom-header .book-now {
+  margin-right: 50px;
+  background-color: #E39A6D;
   color: white;
-  padding: 12px 22px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  transition: background 0.3s ease;
-  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.bottom-header .book-now:hover {
+  background-color: #d38759;
 }
 
-.book-btn:hover {
-  background-color: #b97d4f;
-}
 
 
 .hero {
