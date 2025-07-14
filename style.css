@@ -104,39 +104,47 @@ body, html {
 
 /* === BOTTOM HEADER === */
 .bottom-header {
-  background-color: rgba(0, 209, 209, 0.65); /* Softer transparent teal */
   position: sticky;
   top: 0;
-  z-index: 9999;
-  width: 100%;
-  padding: 25px 0;
+  z-index: 1000;
+  background-color: rgba(0, 209, 209, 0.65); /* soft transparent teal */
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
+  backdrop-filter: blur(5px); /* Optional: makes transparent teal smoother */
 }
-.bottom-header nav {
+
+.nav-links {
   display: flex;
-  gap: 50px; /* Spaced out nav links */
-  margin-left: 50px;
+  gap: 50px; /* space between each link */
 }
-.bottom-header nav a {
+
+.nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 18px;
+  transition: color 0.3s;
 }
-.bottom-header .book-now {
-  margin-right: 50px;
+
+.nav-links a:hover {
+  color: #FDF2E9; /* optional hover color */
+}
+
+.book-now {
   background-color: #E39A6D;
   color: white;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
-.bottom-header .book-now:hover {
+
+.book-now:hover {
   background-color: #d38759;
 }
 
