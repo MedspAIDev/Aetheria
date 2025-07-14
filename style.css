@@ -9,6 +9,7 @@ body {
 body, html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Playfair Display', serif;
 }
 
@@ -108,6 +109,9 @@ body, html {
   top: 0;
   z-index: 1000;
   width: 100%;
+  max-width: 100vw;        /* Ensures it won't exceed the screen */
+  box-sizing: border-box;  /* Includes padding inside total width */
+  padding: 20px 40px;
   background-color: rgba(0, 209, 209, 0.65); /* transparent teal */
   padding: 20px 40px;
   display: flex;
