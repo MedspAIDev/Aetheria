@@ -5,6 +5,82 @@ body {
   color: #746055;
 }
 
+header {
+  font-family: 'Playfair Display', serif;
+}
+
+/* TOP HEADER */
+.top-header {
+  background-color: #f6eddf;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-header .logo img {
+  height: 60px;
+}
+
+.contact-left,
+.contact-right {
+  font-size: 0.9rem;
+  color: #746055;
+}
+
+/* STICKY NAV BAR */
+.bottom-header {
+  background-color: #b9e0e8;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.bottom-header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.nav-left {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-left li a {
+  text-decoration: none;
+  color: #746055;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-left li a:hover {
+  color: #d09370;
+}
+
+.book-btn {
+  background-color: #d09370;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #b97d4f;
+}
+
+
 .hero {
   text-align: center;
   padding: 60px 20px 40px;
