@@ -107,15 +107,17 @@ body, html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(0, 209, 209, 0.65); /* soft transparent teal */
+  width: 100%;
+  background-color: rgba(0, 209, 209, 0.65); /* transparent teal */
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
-  backdrop-filter: blur(5px); /* Optional: makes transparent teal smoother */
+  backdrop-filter: blur(4px); /* optional smooth blur */
 }
+
 
 .nav-links {
   display: flex;
@@ -134,7 +136,7 @@ body, html {
 }
 
 .book-now {
-  background-color: #E39A6D;
+  background-color: #d7a98c;
   color: white;
   padding: 10px 20px;
   border-radius: 6px;
@@ -145,9 +147,8 @@ body, html {
 }
 
 .book-now:hover {
-  background-color: #d38759;
+  background-color: #c89175;
 }
-
 
 
 .hero {
