@@ -90,11 +90,12 @@ body, html {
   color: #746055;
   background-color: #f6eddf;
   border-radius: 50%;
-  padding: 10px;
-  font-size: 1.1rem;
+  width: 40px;
+  height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.1rem;
   transition: background 0.3s;
 }
 
@@ -108,18 +109,15 @@ body, html {
   position: sticky;
   top: 0;
   z-index: 1000;
-  width: 100%;
-  max-width: 100vw;        /* Ensures it won't exceed the screen */
-  box-sizing: border-box;  /* Includes padding inside total width */
-  padding: 20px 40px;
-  background-color: rgba(0, 209, 209, 0.65); /* transparent teal */
+  background-color: rgba(0, 209, 209, 0.65); /* soft transparent teal */
   padding: 20px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* center everything horizontally */
   align-items: center;
-  font-family: 'Playfair Display', serif;
-  font-weight: normal;
-  backdrop-filter: blur(4px); /* optional smooth blur */
+  backdrop-filter: blur(5px);
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 
 
