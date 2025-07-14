@@ -142,18 +142,21 @@ body, html {
 
 /* === BOOK NOW BUTTON === */
 .book-now {
-  background-color: #d7a98c;
+  background-color: transparent;
   color: white;
+  border: 2px solid white;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .book-now:hover {
-  background-color: #c89175;
+  background-color: rgba(255, 255, 255, 0.2); /* soft white tint */
+  color: #f6eddf; /* matches your background beige */
+  border-color: #f6eddf;
 }
 
 /* === SOCIAL ICONS === */
