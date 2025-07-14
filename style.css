@@ -5,84 +5,100 @@ body {
   color: #746055;
 }
 
-/* General header styling */
 header {
   font-family: 'Playfair Display', serif;
 }
 
 /* === TOP HEADER === */
 .top-header {
-  background-color: #f6eddf;
-  padding: 15px 20px;
+  background-color: white;
+  padding: 20px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-width: 1300px;
   margin: 0 auto;
 }
 
-.contact-left,
-.contact-right {
-  flex: 1;
-  font-size: 0.9rem;
-  color: #746055;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.logo-left img {
+  height: 90px;
+  object-fit: contain;
 }
 
-.logo-center {
+.brand-center {
   flex: 2;
   text-align: center;
 }
 
-.logo-center img {
-  height: 70px;
-  margin-bottom: 5px;
-}
-
-.brand-text h1 {
+.brand-name {
+  font-size: 2.8rem;
   margin: 0;
-  font-size: 1.6rem;
   color: #746055;
 }
 
-.brand-text p {
-  margin: 5px 0 0;
+.brand-subtitle {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #b69583;
+}
+
+.brand-tagline {
   font-size: 1rem;
   color: #746055;
+  margin-top: 8px;
 }
 
-/* SOCIAL ICONS */
+.contact-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #746055;
+}
+
+.contact-info i {
+  margin-right: 6px;
+}
+
 .social-icons {
-  margin-left: 15px;
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .social-icons a {
   text-decoration: none;
-  margin-left: 10px;
   color: #746055;
-  background-color: #7460551a;
+  background-color: #f6eddf;
   border-radius: 50%;
   padding: 8px;
-  display: inline-block;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: background 0.3s;
 }
 
 .social-icons a:hover {
   background-color: #d09370;
-  color: #fff;
+  color: white;
 }
 
 /* === BOTTOM HEADER === */
 .bottom-header {
-  background-color: white;
+  background-color: #746055;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-top: 1px solid #e4dcd0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  padding: 20px 0;
 }
 
 .bottom-header nav {
@@ -91,41 +107,44 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 20px;
+  padding: 0 20px;
 }
 
 .nav-left {
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding: 0;
+  gap: 24px;
   margin: 0;
+  padding: 0;
 }
 
 .nav-left li a {
   text-decoration: none;
-  color: #746055;
+  color: white;
   font-weight: 500;
+  font-size: 1rem;
   transition: color 0.3s;
 }
 
 .nav-left li a:hover {
-  color: #d09370;
+  color: #ffe3ca;
 }
 
 .book-btn {
   background-color: #d09370;
   color: white;
-  padding: 10px 16px;
+  padding: 10px 18px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1rem;
   transition: background 0.3s ease;
 }
 
 .book-btn:hover {
   background-color: #b97d4f;
 }
+
 
 
 .hero {
