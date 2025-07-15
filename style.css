@@ -366,5 +366,11 @@ body, html {
   color: rgba(0, 209, 209, 1);
 }
 
+.footer-logo img {
+  height: 120px; /* or adjust to desired size */
+  width: auto;
+  object-fit: contain;
+}
+
 
 
