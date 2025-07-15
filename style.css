@@ -111,17 +111,17 @@ body, html {
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: rgba(0, 209, 209, 0.65); /* soft transparent teal */
+  background-color: rgba(0, 209, 209, 0.65);
   backdrop-filter: blur(5px);
+  background-clip: padding-box;
   padding: 20px 40px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); /* subtle shadow for separation */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
 }
-
 
 .nav-links {
   display: flex;
