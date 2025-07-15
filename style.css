@@ -367,7 +367,7 @@ body, html {
 }
 
 .footer-logo img {
-  height: 120px; /* or adjust to desired size */
+  height: 90px; /* or adjust to desired size */
   width: auto;
   object-fit: contain;
 }
