@@ -15,6 +15,7 @@ html {
 
 /* === TOP HEADER === */
 .top-header {
+  position: relative; /* Needed for absolute centering to work */
   background-color: white;
   width: 100%;
   padding: 30px 60px 20px;
@@ -31,7 +32,9 @@ html {
 }
 
 .brand-center {
-  flex: 1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   padding: 0 20px;
 }
