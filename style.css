@@ -241,7 +241,7 @@ html {
 
 /* === FOOTER === */
 .site-footer {
-  background-color: rgba(0, 209, 209, 0.65);
+  background-color: #84dad7; /* single teal tone */
   color: white;
   padding: 80px 40px;
   font-family: 'Playfair Display', serif;
@@ -302,20 +302,19 @@ html {
 .footer-column .social-icons {
   display: flex;
   gap: 16px;
-  justify-content: center;
+  margin-top: 12px;
 }
 
 .footer-column .social-icons a {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: white;
-  text-align: center;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
