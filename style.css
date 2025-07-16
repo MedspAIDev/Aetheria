@@ -80,16 +80,14 @@ html {
   font-size: 1.2rem;
 }
 
-.top-header .social-icons,
-.header-social-icons {
+.top-header .social-icons {
   display: flex;
   gap: 12px;
 }
 
-.top-header .social-icons a,
-.header-social-icons a {
+.top-header .social-icons a {
   text-decoration: none;
-  color: #746055;
+  color: #b69583;
   background-color: #f6eddf;
   border-radius: 50%;
   width: 40px;
@@ -101,8 +99,7 @@ html {
   transition: background 0.3s;
 }
 
-.top-header .social-icons a:hover,
-.header-social-icons a:hover {
+.top-header .social-icons a:hover {
   background-color: #d09370;
   color: white;
 }
@@ -298,13 +295,14 @@ html {
 .social-footer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
 .footer-column .social-icons {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .footer-column .social-icons a {
