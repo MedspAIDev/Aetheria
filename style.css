@@ -291,13 +291,13 @@ html {
 }
 
 .footer-links ul li a {
-  color: #f6eddf;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-links ul li a:hover {
-  color: #fff;
+  color: ##f6eddf;
 }
 
 .footer-socials {
