@@ -240,8 +240,8 @@ html {
 }
 
 .footer {
-  background-color: #746055;
-  color: #f6eddf;
+  background-color: #84dad7;
+  color: #FFFFFF;
   padding: 60px 20px;
   position: relative;
   overflow: hidden;
@@ -309,8 +309,8 @@ html {
 }
 
 .footer-socials a {
-  background-color: #f6eddf;
-  color: #b69583;
+  background-color: #c7fcfb;
+  color: #84dad7;
   width: 42px;
   height: 42px;
   border-radius: 50%;
