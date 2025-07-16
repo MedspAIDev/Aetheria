@@ -329,3 +329,22 @@ html {
 .footer-socials a:hover {
   background-color: #fff;
 }
+
+.page-title {
+  background-color: #f6eddf;
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.page-title h2 {
+  font-size: 3rem;
+  color: #746055;
+  margin: 0;
+}
+
+.page-title p {
+  font-size: 1.2rem;
+  color: #b69583;
+  margin-top: 10px;
+}
+
