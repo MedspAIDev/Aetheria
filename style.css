@@ -1,12 +1,14 @@
+/* === BASE STYLES === */
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #f6eddf;
   color: #746055;
+  overflow-x: hidden;
+  overflow-y: visible; /* ✅ Allow sticky elements to work */
 }
 
-/* === GENERAL RESET === */
-html, body {
+html {
   padding: 0;
   overflow-x: hidden;
 }
@@ -78,12 +80,14 @@ html, body {
   font-size: 1.2rem;
 }
 
-.top-header .social-icons {
+.top-header .social-icons,
+.header-social-icons {
   display: flex;
   gap: 12px;
 }
 
-.top-header .social-icons a {
+.top-header .social-icons a,
+.header-social-icons a {
   text-decoration: none;
   color: #746055;
   background-color: #f6eddf;
@@ -97,15 +101,16 @@ html, body {
   transition: background 0.3s;
 }
 
-.top-header .social-icons a:hover {
+.top-header .social-icons a:hover,
+.header-social-icons a:hover {
   background-color: #d09370;
   color: white;
 }
 
 /* === BOTTOM HEADER === */
 .bottom-header {
-  position: sticky;
-  top: 0;
+  position: sticky;       /* ✅ Sticky behavior */
+  top: 0;                 /* ✅ Stick to top of viewport */
   z-index: 999;
   background-color: rgba(0, 209, 209, 0.65);
   backdrop-filter: blur(5px);
@@ -115,6 +120,7 @@ html, body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  overflow: visible;      /* ✅ Prevent clipping of sticky behavior */
 }
 
 .nav-links {
@@ -216,6 +222,7 @@ html, body {
   opacity: 1;
 }
 
+/* === OUR STORY SECTION === */
 .our-story {
   padding: 60px 20px;
   background-color: #fffebe1;
