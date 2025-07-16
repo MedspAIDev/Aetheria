@@ -85,9 +85,10 @@ html {
   gap: 12px;
 }
 
-.top-header .social-icons a {
+/* === HEADER SOCIAL ICONS === */
+.header-social-icons a {
   text-decoration: none;
-  color: #b69583;
+  color: #746055; /* light brown */
   background-color: #f6eddf;
   border-radius: 50%;
   width: 40px;
@@ -97,12 +98,14 @@ html {
   justify-content: center;
   font-size: 1.1rem;
   transition: background 0.3s;
+  margin-top: 8px; /* optional vertical spacing */
 }
 
-.top-header .social-icons a:hover {
+.header-social-icons a:hover {
   background-color: #d09370;
   color: white;
 }
+
 
 /* === BOTTOM HEADER === */
 .bottom-header {
