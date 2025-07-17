@@ -18,7 +18,7 @@ html {
   position: relative; /* Needed for absolute centering to work */
   background-color: white;
   width: 100%;
-  padding: 30px 60px 40px;
+  padding: 30px 60px 60px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
