@@ -346,42 +346,46 @@ html {
 }
 
 .accordion-section {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 24px;
 }
 
 .section-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-align: center;
   color: #746055;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display', serif;
 }
 
 .accordion-item {
   border-top: 1px solid #ccc;
+  padding: 20px 0;
 }
 
 .accordion-toggle {
   width: 100%;
   background: none;
   border: none;
-  padding: 20px;
+  padding: 0 10px;
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #3d3d3d;
   font-weight: bold;
   cursor: pointer;
   outline: none;
   position: relative;
+  font-family: 'Playfair Display', serif;
 }
 
 .accordion-toggle::after {
-  content: "\25BC";
+  content: '▾';
   position: absolute;
   right: 20px;
-  font-size: 0.9rem;
-  transition: transform 0.3s;
+  font-size: 1.3rem;
+  color: #746055;
+  transition: transform 0.3s ease;
 }
 
 .accordion-toggle.active::after {
@@ -390,14 +394,19 @@ html {
 
 .accordion-content {
   display: none;
-  padding: 0 20px 20px;
-  background-color: #fff;
-  color: #555;
-  font-size: 1rem;
+  padding: 20px;
+  background-color: #f6eddf; /* Matches main page background */
+  color: #746055;
+  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  border: 1px solid #e1d6c7;
+  margin-top: 15px;
+  border-radius: 6px;
 }
 
 .accordion-content p {
-  margin: 0 0 15px;
+  margin-bottom: 20px;
   line-height: 1.6;
 }
 
@@ -410,6 +419,7 @@ html {
   border-radius: 5px;
   font-size: 0.95rem;
   transition: background-color 0.3s ease;
+  font-family: 'Playfair Display', serif;
 }
 
 .view-btn:hover {
