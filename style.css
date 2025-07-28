@@ -426,6 +426,11 @@ html {
   background-color: #4a94a5;
 }
 
+.accordion-content {
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  max-height: 0;
+}
 
 
 
