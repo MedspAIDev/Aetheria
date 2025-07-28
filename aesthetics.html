@@ -147,24 +147,31 @@
   </div>
 </footer>
 
+
 <script>
   document.querySelectorAll('.accordion-toggle').forEach(button => {
     button.addEventListener('click', () => {
       const content = button.nextElementSibling;
       const isActive = button.classList.contains('active');
 
+      // Close all
       document.querySelectorAll('.accordion-toggle').forEach(btn => {
         btn.classList.remove('active');
-        btn.nextElementSibling.style.display = 'none';
+        btn.nextElementSibling.style.maxHeight = null;
       });
 
+      // Open selected
       if (!isActive) {
         button.classList.add('active');
         content.style.display = 'block';
+        content.style.maxHeight = content.scrollHeight + 'px';
+      } else {
+        content.style.maxHeight = null;
       }
     });
   });
 </script>
+
 
   
 </body>
