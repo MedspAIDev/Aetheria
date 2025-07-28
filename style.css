@@ -400,7 +400,7 @@ html {
   font-size: 1.1rem;
   font-family: 'Playfair Display', serif;
   text-align: center;
-  border: 1px solid #e1d6c7;
+  border: none;
   margin-top: 15px;
   border-radius: 6px;
 }
