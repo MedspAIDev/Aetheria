@@ -151,5 +151,25 @@
   </div>
 </footer>
 
+<script>
+  document.querySelectorAll('.accordion-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      const isActive = button.classList.contains('active');
+
+      document.querySelectorAll('.accordion-toggle').forEach(btn => {
+        btn.classList.remove('active');
+        btn.nextElementSibling.style.display = 'none';
+      });
+
+      if (!isActive) {
+        button.classList.add('active');
+        content.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+  
 </body>
 </html>
