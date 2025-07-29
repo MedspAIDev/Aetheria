@@ -432,6 +432,11 @@ html {
   background-color: #f6eddf;
 }
 
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
