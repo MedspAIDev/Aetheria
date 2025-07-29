@@ -358,13 +358,15 @@ html {
 
 /* Grid Layout */
 .aesthetics-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers all rows */
   gap: 40px;
   padding: 40px 20px 80px;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 /* Card Style */
 .aesthetic-card {
