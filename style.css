@@ -393,8 +393,9 @@ html {
 }
 
 .accordion-content {
-  display: none;
-  padding: 20px;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 30px;
   background-color: #f6eddf; /* Matches main page background */
   color: #746055;
   font-size: 1.1rem;
@@ -403,6 +404,12 @@ html {
   border: none;
   margin-top: 15px;
   border-radius: 6px;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 500px; /* Adjust if needed */
+  padding: 20px 30px;
 }
 
 .accordion-content p {
@@ -424,17 +431,6 @@ html {
 
 .view-btn:hover {
   background-color: #4a94a5;
-}
-
-.accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding: 0 30px;
-}
-.accordion-item.active .accordion-content {
-  max-height: 500px; /* Adjust as needed */
-  padding: 20px 30px;
 }
 
 
