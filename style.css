@@ -377,20 +377,23 @@ html {
   flex-direction: column;
   align-items: center;
   height: 100%;
+  max-width: 260px;
 }
 
 .card-image {
   width: 100%;
-  border-radius: 8px;
+  height: 220px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .card-content {
   flex-grow: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically center the title */
+  align-items: center;
+  justify-content: center;
   padding: 10px 0;
+  height: 60px;
 }
 
 .aesthetic-card h3 {
@@ -398,6 +401,7 @@ html {
   color: #746055;
   font-size: 1.25rem;
 }
+
 
 
 /* Buttons */
