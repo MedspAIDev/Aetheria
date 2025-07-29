@@ -368,32 +368,37 @@ html {
 
 /* Card Style */
 .aesthetic-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: white;
   border-radius: 12px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-  text-align: center;
   padding: 20px;
-  transition: transform 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 
-.aesthetic-card:hover {
-  transform: translateY(-5px);
-}
-
-.aesthetic-card img {
+.card-image {
   width: 100%;
-  height: 260px;
-  object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the title */
+  padding: 10px 0;
 }
 
 .aesthetic-card h3 {
-  margin: 6px 0 10px;
+  margin: 0;
   color: #746055;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
+
 
 /* Buttons */
 .card-buttons {
