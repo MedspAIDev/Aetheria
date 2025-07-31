@@ -556,6 +556,25 @@ html {
   background-color: #6fc7c4;
 }
 
+.btn-book {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #84dad7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-book:hover {
+  background-color: #6fc7c4;
+  transform: translateY(-2px);
+}
 
 
 
