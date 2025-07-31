@@ -495,6 +495,67 @@ html {
   background-color: #6fc7c4;
 }
 
+.service-page-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #746055;
+  font-family: 'Playfair Display', serif;
+}
+
+.service-header h2 {
+  font-size: 2.8rem;
+  margin: 0;
+  color: #746055;
+  text-align: center;
+}
+
+.location-subtitle {
+  font-size: 1.2rem;
+  color: #b69583;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  overflow: hidden; /* ensures text wraps cleanly around floated image */
+}
+
+.service-image-float {
+  max-width: 300px;
+  margin: 0 20px 20px 0;
+  border: 8px solid white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  float: left;
+}
+
+.service-image-float.right {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.book-btn-container {
+  margin-top: 20px;
+}
+
+.book-btn-container .btn-book {
+  background-color: #84dad7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.book-btn-container .btn-book:hover {
+  background-color: #6fc7c4;
+}
+
 
 
 
