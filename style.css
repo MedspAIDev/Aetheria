@@ -576,6 +576,14 @@ html {
   transform: translateY(-2px);
 }
 
+.service-page-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  color: #746055;
+}
+
 
 
 
