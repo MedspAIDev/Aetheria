@@ -645,6 +645,14 @@ html {
   }
   .iv-card .btn-book:hover { background:#6fc7c4; transform: translateY(-1px); }
 
+.iv-title {
+  font-size: 1.4rem; /* Increase or decrease this value as needed */
+  font-weight: bold;
+  color: #746055; /* Same brown as price for consistency */
+  margin-bottom: 8px;
+}
+
+
 
 
 /* === MOBILE RESPONSIVE === */
