@@ -605,7 +605,7 @@ html {
   .iv-card h3 {
     margin: 0 0 4px;
     color: #746055;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .iv-price {
     color: #746055; /* Brown tone */
@@ -645,12 +645,6 @@ html {
   }
   .iv-card .btn-book:hover { background:#6fc7c4; transform: translateY(-1px); }
 
-.iv-title {
-  font-size: 1.4rem; /* Increase or decrease this value as needed */
-  font-weight: bold;
-  color: #746055; /* Same brown as price for consistency */
-  margin-bottom: 8px;
-}
 
 
 
