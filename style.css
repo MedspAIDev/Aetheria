@@ -593,39 +593,40 @@ html {
     gap: 28px;
   }
   .iv-card {
-    background: #fff;
-    border: 1px solid #e8e2da;
-    border-radius: 14px;
-    box-shadow: 0 6px 14px rgba(0,0,0,.06);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+  background: #fff;
+  border: 1px solid #e8e2da;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0,0,0,.06);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Makes button align evenly */
+}
   .iv-card h3 {
     margin: 0 0 4px;
     color: #746055;
     font-size: 1.2rem;
   }
   .iv-price {
-    display: inline-block;
-    background: #84dad7;
-    color: #fff;
-    font-weight: 700;
-    padding: 6px 12px;
-    border-radius: 999px;
-    font-size: .95rem;
+    color: #746055; /* Brown tone */
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 8px 0;
   }
-  .iv-ingredients {
-    color: #8a7568;
-    font-size: .95rem;
-  }
-  .iv-desc {
-    color: #746055;
-    line-height: 1.65;
-    font-size: .98rem;
-    margin-top: 2px;
-  }
+
+.iv-ingredients {
+  color: #8a7568;
+  font-size: .95rem;
+  margin-bottom: 10px;
+}
+
+.iv-desc {
+  color: #746055;
+  line-height: 1.65;
+  font-size: .98rem;
+  margin-top: 2px;
+  flex-grow: 1; /* Pushes button down */
+}
   .iv-actions {
     margin-top: 8px;
   }
